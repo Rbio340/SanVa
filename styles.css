@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFD6E8;
+}
+
+.container {
+    text-align: center;
+}
+
+#gifContainerImg {
+    width: 60%;
+    height: 60%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+#siBtn {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #FF69B4; /* Rosa */
+    color: white;
+    border: 2px solid #FFC0CB; /* Bordes rosa */
+    border-radius: 25px; /* Esquinas redondeadas */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+#noBtn {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #DC143C; /* Rojo oscuro */
+    color: white;
+    border: 2px solid #FFC0CB; /* Bordes rosa */
+    border-radius: 25px; /* Esquinas redondeadas */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+#siBtn:hover {
+    background-color: #FF1493; /* Rosa más intenso al pasar el ratón */
+}
+
+#noBtn:hover {
+    background-color: #FF4500; /* Rojo más intenso al pasar el ratón */
+}
+
+#noBtn span {
+    font-size: 18px;
+    color: #fcf4f4; /* Cambia el color del texto según tus preferencias */
+    /* Otras propiedades de estilo aquí */
+}
+
+.bg-green {
+    background-color: black; /* Nuevo color de fondo verde */
+}
+
+#messageContainer {
+    font-size: 30px;
+    color: #FF0000; /* Color rojo */
+    font-family: 'YourDesiredFont', sans-serif; /* Reemplaza 'YourDesiredFont' con la fuente que desees */
+    text-shadow: 2px 2px 4px #000; /* Borde simulado */
+    animation: pulse 0.5s infinite alternate; /* Animación de palpitación más rápida */
+}
+
+#question {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color: #FF1493;
+    text-shadow: 2px 2px 4px #FFC0CB;
+    margin-bottom: 15px;
+}
+
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.3); /* Zoom más grande */
+    }
+}
+
